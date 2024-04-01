@@ -1,0 +1,49 @@
+.contenedor {
+    border: 5px dotted blue;
+    height: 700px;
+
+}
+
+.position {
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.static {
+    background-color: red;
+
+}
+
+.relative {
+    background-color: yellow;
+    position: relative;
+    left: 50px;
+
+
+}
+
+.absolute {
+    background-color: skyblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ 
+
+}
+
+.fixed {
+    background-color: greenyellow;
+    position: fixed;
+
+}
+
+.sticky {
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+
+}
